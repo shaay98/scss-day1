@@ -1,5 +1,11 @@
-.section-one {color : $mutedColor }
+.section-one {
+     background: $secondaryColor;
+}
 
-.section-two {color : $baseColor }
+.section-two {
+  background: $accentColor;  
+}
 
-.section-three {color :  $wallpaperColor}
+.section-three {
+     background: $highlightColor;
+}
