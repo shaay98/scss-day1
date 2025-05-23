@@ -1,14 +1,13 @@
-import './App.scss'
+import './main.scss';
 
 function App() {
-  
   return (
-    <>
-     <h1 className='section-one'>Sass Demo</h1>
-     <p className='section-two'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, doloribus. Numquam obcaecati dignissimos in autem! Sunt sint magni officia aut, qui error ratione distinctio illum tempora minus eaque porro corrupti?</p>
-     <footer className='section-three'>Copyright 2025 Nijah Richardson</footer>
-    </>
-  )
+    <div>
+      <div className="section-one">Section One</div>
+      <div className="section-two">Section Two</div>
+      <div className="section-three">Section Three</div>
+    </div>
+  );
 }
 
-export default App
+export default App;

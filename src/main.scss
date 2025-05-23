@@ -1,6 +1,13 @@
+$secondaryColor: #e0f7fa;
+$accentColor: #00796b;
+$highlightColor: #004d40;
 
-$primaryColor: #8ecae6;
-$secondaryColor: #219ebc;
-$accentColor: #023047;
-$mutedColor: #ffb703;
-$hightlightColor: #fb8500;
+.section-one {
+  background: $secondaryColor;
+}
+.section-two {
+  background: $accentColor;
+}
+.section-three {
+  background: $highlightColor;
+}
